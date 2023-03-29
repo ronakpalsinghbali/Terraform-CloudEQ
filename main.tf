@@ -9,15 +9,7 @@ resource "local_file" "test02" {
   content  = "${random_id.Test_value.dec}"
 }
 
-resource "local_file" "test03" {
-  filename = "test.c"
-  content  = local.conts
-}
 
-resource "local_file" "test04" {
-  filename = "test.jar"
-  content  = local.cont
-}
 
 locals {
   cont = "Hello Universe"
