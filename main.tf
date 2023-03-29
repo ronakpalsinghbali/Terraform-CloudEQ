@@ -20,7 +20,7 @@ resource "local_file" "test04" {
 }
 
 locals {
-  cont = "Hello universe"
+  cont = "Hello Universe"
   conts = "Hello NASA"
   
 }
